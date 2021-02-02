@@ -1,0 +1,33 @@
+{
+  "name": "@dimfeld/unique-by",
+  "version": "1.0.0",
+  "description": "Filter an array on unique values by a key",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "uvu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dimfeld/unique-by.git"
+  },
+  "keywords": [
+    "unique"
+  ],
+  "author": "Daniel Imfeld <dimfeld>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimfeld/unique-by/issues"
+  },
+  "homepage": "https://github.com/dimfeld/unique-by#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "rollup": "^2.38.4",
+    "uvu": "^0.5.1"
+  }
+}
