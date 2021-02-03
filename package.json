@@ -1,6 +1,6 @@
 {
   "name": "@dimfeld/unique-by",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filter an array on unique values by a key",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
