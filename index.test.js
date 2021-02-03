@@ -1,4 +1,4 @@
-import uniq from './index.mjs';
+import uniq from './index.js';
 import { test } from 'uvu';
 import * as assert from 'uvu/assert';
 

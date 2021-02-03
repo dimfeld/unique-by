@@ -1,5 +1,5 @@
 export default {
-  input: 'index.mjs',
+  input: 'index.js',
   output: [
     {
       format: 'cjs',
